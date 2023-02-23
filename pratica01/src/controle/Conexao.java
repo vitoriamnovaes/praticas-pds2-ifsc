@@ -16,7 +16,7 @@ public class Conexao {
 		
 	}
 	
-	public Conexao getInstancia() {
+	public static Conexao getInstancia() {
 		if (instancia == null) {
 			instancia = new Conexao();
 			}
