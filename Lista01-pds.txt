@@ -13,8 +13,14 @@ b)DAO: são projetos mais dinâmicos que permitem uma maior organização, poden
 c)Singleton: garante  que exista apenas uma única instância dentro do seu projeto, ou seja, não  há a necessidade de transitar a instância do seu objeto por todo o seu sistema
 
 3)O que é JDBC e como ele se relaciona com bancos de dados e a programação em Java? 
+<<<<<<< HEAD
 R: JDBC é uma API padrão da linguagem Java que permite que um grupo de classes e métodos se conectem e interajam com bancos de dados relacionais. Através 
 do JDBC é possível executar consultas e atualizações de registros e receber resultados dessas operações.
+=======
+R: JDBC é uma API Java que permite que programas Java se comuniquem com bancos de dados relacionais, como por exemplo o MySQL. Através do JDBC,
+ é possível estabelecer uma conexão com o banco de dados, enviar comandos SQL para executar consultas e atualizações de dados,
+ e receber resultados dessas operações.
+>>>>>>> main
 
 4)O que significa “CRUD” e como ele se  relaciona com os quatro métodos que implementamos em nossas classes DAO?
 R: CRUD (Create, Read, Update e Delete) é uma sigla utilizada para se referir às quatro operações básicas realizadas em banco de dados 
