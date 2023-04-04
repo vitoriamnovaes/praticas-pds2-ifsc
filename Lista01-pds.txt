@@ -1,0 +1,55 @@
+1)Pesquise e descreva: no contexto de programação, o que é uma “biblioteca” e o que é uma “API”? 
+Diferencie ambas utilizando as suas próprias palavras.
+R: Uma biblioteca em programação trata-se de uma coleção de funções, que são geralmente organizadas em classes, que podem ser 
+utilizadas para a construção de um software ou aplicativo mobile, já uma API,é um conjunto de normas criado para oferecer uma 
+interface (caminho) com regras bem definidas para facilitar a comunição entre o usuario e o software.
+O conceito de API e biblioteca são bem diferentes, já que uma biblioteca não fornece uma interface para que sejam consumidos 
+recursos de um sistema.
+
+2)Defina brevemente e descreva a razão para se utilizar os padrões de projetos abaixo:
+R:
+a)MVC: permite um maior controle sobre a aplicação, possibilitando uma manutenção isolada de ambos e uma maior segurança na aplicação.
+b)DAO: são projetos mais dinâmicos que permitem uma maior organização, podendo alterar seu curso e suas recompensas ao longo do desenvolvimento das atividades.
+c)Singleton: garante  que exista apenas uma única instância dentro do seu projeto, ou seja, não  há a necessidade de transitar a instância do seu objeto por todo o seu sistema
+
+3)O que é JDBC e como ele se relaciona com bancos de dados e a programação em Java? 
+R: JDBC é uma API Java que permite que programas Java se comuniquem com bancos de dados relacionais, como por exemplo o MySQL. Através do JDBC,
+ é possível estabelecer uma conexão com o banco de dados, enviar comandos SQL para executar consultas e atualizações de dados,
+ e receber resultados dessas operações.
+
+4)O que significa “CRUD” e como ele se  relaciona com os quatro métodos que implementamos em nossas classes DAO?
+R: CRUD (Create, Read, Update e Delete) é uma sigla utilizada para se referir às quatro operações básicas realizadas em banco de dados 
+relacionais que são: consulta, inclusão, alteração e exclusão dos registros.
+
+5)Explique brevemente e com suas palavras qual a utilidade das três classes abaixo:
+a)Connection:  é usada para criar uma conexão com um banco de dados, permite que os desenvolvedores 
+executem consultas e controlem várias configurações de conexão.
+b)PreparedStatement: é uma subclasse de Statement, utilizada para executar um comando repetidas vezes, 
+oferecendo um retorno de dados do banco de dados
+c)Statement: é uma interface que define métodos para executar consultas SQL em um banco de dados, é apropriada para 
+consultas SQL simples, que não possuem parâmetros.
+
+6)Considere a execução de uma query SQL no banco de dados. Se esperamos um retorno de dados do banco de dados 
+devemos usar a classe Statement ou PreparedStatement? Justifique. (Dica: é possível usar ambas; procure a diferença 
+técnica entre as classes.).
+R: Tanto a classe Statement quanto a classe PreparedStatement podem ser utilizadas,se você espera um retorno de dados 
+do banco de dados, é prudente utilizar a classe PreparedStatement em vez da classe Statement, pois ela oferece suporte 
+para consultas SQL, desempenhando uma maior segurança e legibilidade do código.
+
+7)Com as suas próprias palavras, diferencie SWING do WINDOWBUILDER.
+R: O WindowBuilder é uma instrumento de design que pode ser usada para criar interfaces de usuário em Java de forma rápida e fácil. Já o 
+swing, é uma estrutura de interface de usuário que pode ser usada para criar componentes gráficos em Java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
